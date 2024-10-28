@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000162] (drone) JobQueued: {'identifier': 'drone', 'dependencies': OrderedDict()}
+[0.000200] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.000249] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/moon/project/Pixhawkdrone/dev_ws/install/px4_msgs')])}
+[0.000285] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.003195] (drone) JobStarted: {'identifier': 'drone'}
+[0.006236] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.006433] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/moon/project/Pixhawkdrone/dev_ws/src/px4_msgs', '-DCMAKE_INSTALL_PREFIX=/home/moon/project/Pixhawkdrone/dev_ws/install/px4_msgs'], 'cwd': '/home/moon/project/Pixhawkdrone/dev_ws/build/px4_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'moon'), ('SSH_CLIENT', '127.0.0.1 41708 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/moon'), ('OLDPWD', '/home/moon/project/Pixhawkdrone/dev_ws/src'), ('SSH_TTY', '/dev/pts/16'), ('ROS_PYTHON_VERSION', '3'), ('HF_ENDPOINT', 'https://hf-mirror.com'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('https_proxy', 'http://localhost:7897'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'moon'), ('http_proxy', 'http://localhost:7897'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '67'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moon/.local/bin:/opt/ros/humble/bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/steam/Steam/steamapps/common/Starbound/linux:/home/moon/.local/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/moon/project/Pixhawkdrone/dev_ws/build/px4_msgs'), ('SSH_CONNECTION', '127.0.0.1 41708 127.0.0.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.045175] (px4_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.081585] (px4_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.086699] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099490] (-) TimerEvent: {}
+[0.135550] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.139330] (px4_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.139484] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.139690] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.141437] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.196879] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.199561] (-) TimerEvent: {}
+[0.201742] (px4_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.201903] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.202154] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.203727] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299651] (-) TimerEvent: {}
+[0.388871] (drone) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone', 'build', '--build-base', '/home/moon/project/Pixhawkdrone/dev_ws/build/drone/build', 'install', '--record', '/home/moon/project/Pixhawkdrone/dev_ws/build/drone/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/moon/project/Pixhawkdrone/dev_ws/src/drone', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'moon', 'SSH_CLIENT': '127.0.0.1 41708 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/moon', 'OLDPWD': '/home/moon/project/Pixhawkdrone/dev_ws/src', 'SSH_TTY': '/dev/pts/16', 'ROS_PYTHON_VERSION': '3', 'HF_ENDPOINT': 'https://hf-mirror.com', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'https_proxy': 'http://localhost:7897', 'ROS_DISTRO': 'humble', 'LOGNAME': 'moon', 'http_proxy': 'http://localhost:7897', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '67', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moon/.local/bin:/opt/ros/humble/bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/steam/Steam/steamapps/common/Starbound/linux:/home/moon/.local/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:12.0', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'PWD': '/home/moon/project/Pixhawkdrone/dev_ws/build/drone', 'SSH_CONNECTION': '127.0.0.1 41708 127.0.0.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/moon/project/Pixhawkdrone/dev_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moon/project/Pixhawkdrone/dev_ws/install/drone/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[0.399729] (-) TimerEvent: {}
+[0.417424] (px4_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.465501] (px4_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.473466] (drone) StderrLine: {'line': b"/home/moon/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[0.473587] (drone) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[0.483422] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.486063] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.490617] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.496910] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.499788] (-) TimerEvent: {}
+[0.505344] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.513109] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.517069] (drone) StdoutLine: {'line': b'running egg_info\n'}
+[0.524300] (drone) StdoutLine: {'line': b'creating ../../build/drone/drone.egg-info\n'}
+[0.524412] (drone) StdoutLine: {'line': b'writing ../../build/drone/drone.egg-info/PKG-INFO\n'}
+[0.524653] (drone) StdoutLine: {'line': b'writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt\n'}
+[0.524770] (drone) StdoutLine: {'line': b'writing requirements to ../../build/drone/drone.egg-info/requires.txt\n'}
+[0.524834] (drone) StdoutLine: {'line': b'writing top-level names to ../../build/drone/drone.egg-info/top_level.txt\n'}
+[0.524897] (drone) StdoutLine: {'line': b"writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'\n"}
+[0.539900] (drone) StdoutLine: {'line': b"reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'\n"}
+[0.540061] (drone) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.540113] (drone) StderrLine: {'line': b'  File "/home/moon/project/Pixhawkdrone/dev_ws/src/drone/setup.py", line 5, in <module>\n'}
+[0.540165] (drone) StderrLine: {'line': b'    setup(\n'}
+[0.540203] (drone) StderrLine: {'line': b'  File "/home/moon/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup\n'}
+[0.540306] (drone) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[0.540370] (drone) StderrLine: {'line': b'  File "/home/moon/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup\n'}
+[0.540426] (drone) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[0.540478] (drone) StderrLine: {'line': b'  File "/home/moon/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands\n'}
+[0.540555] (drone) StderrLine: {'line': b'    dist.run_commands()\n'}
+[0.540591] (drone) StderrLine: {'line': b'  File "/home/moon/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands\n'}
+[0.540625] (drone) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[0.540657] (drone) StderrLine: {'line': b'  File "/home/moon/.local/lib/python3.10/site-packages/setuptools/dist.py", line 991, in run_command\n'}
+[0.540690] (drone) StderrLine: {'line': b'    super().run_command(command)\n'}
+[0.540723] (drone) StderrLine: {'line': b'  File "/home/moon/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command\n'}
+[0.540754] (drone) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[0.540785] (drone) StderrLine: {'line': b'  File "/home/moon/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 315, in run\n'}
+[0.540819] (drone) StderrLine: {'line': b'    self.find_sources()\n'}
+[0.540851] (drone) StderrLine: {'line': b'  File "/home/moon/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 323, in find_sources\n'}
+[0.540883] (drone) StderrLine: {'line': b'    mm.run()\n'}
+[0.540914] (drone) StderrLine: {'line': b'  File "/home/moon/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 549, in run\n'}
+[0.540947] (drone) StderrLine: {'line': b'    self.prune_file_list()\n'}
+[0.540977] (drone) StderrLine: {'line': b'  File "/home/moon/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 161, in prune_file_list\n'}
+[0.541009] (drone) StderrLine: {'line': b'    super().prune_file_list()\n'}
+[0.541040] (drone) StderrLine: {'line': b'  File "/home/moon/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list\n'}
+[0.541073] (drone) StderrLine: {'line': b'    base_dir = self.distribution.get_fullname()\n'}
+[0.541107] (drone) StderrLine: {'line': b'  File "/home/moon/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname\n'}
+[0.541144] (drone) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[0.541181] (drone) StderrLine: {'line': b'  File "/home/moon/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname\n'}
+[0.541216] (drone) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[0.541248] (drone) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[0.555386] (drone) CommandEnded: {'returncode': 1}
+[0.555758] (drone) JobEnded: {'identifier': 'drone', 'rc': 1}
+[0.599892] (-) TimerEvent: {}
+[0.700124] (-) TimerEvent: {}
+[0.800348] (-) TimerEvent: {}
+[0.900627] (-) TimerEvent: {}
+[1.000881] (-) TimerEvent: {}
+[1.101151] (-) TimerEvent: {}
+[1.201443] (-) TimerEvent: {}
+[1.301749] (-) TimerEvent: {}
+[1.397072] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[1.401847] (-) TimerEvent: {}
+[1.403717] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[1.404943] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[1.406169] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.501944] (-) TimerEvent: {}
+[1.602194] (-) TimerEvent: {}
+[1.650063] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.702282] (-) TimerEvent: {}
+[1.742366] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.758912] (px4_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.759726] (px4_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.775610] (px4_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.775775] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.775855] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.775921] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.788851] (px4_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.802393] (-) TimerEvent: {}
+[1.830043] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[1.831066] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[1.840639] (px4_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.902502] (-) TimerEvent: {}
+[2.002786] (-) TimerEvent: {}
+[2.050853] (px4_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.052778] (px4_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/moon/project/Pixhawkdrone/dev_ws/build/px4_msgs\n'}
+[2.066197] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 'SIGINT'}
+[2.076607] (px4_ros_com) JobSkipped: {'identifier': 'px4_ros_com'}
+[2.076677] (-) EventReactorShutdown: {}

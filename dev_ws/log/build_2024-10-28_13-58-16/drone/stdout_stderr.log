@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/drone/drone.egg-info/PKG-INFO
+writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt
+writing requirements to ../../build/drone/drone.egg-info/requires.txt
+writing top-level names to ../../build/drone/drone.egg-info/top_level.txt
+reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/moon/project/Pixhawkdrone/dev_ws/build/drone/build
+creating /home/moon/project/Pixhawkdrone/dev_ws/build/drone/build/lib
+creating /home/moon/project/Pixhawkdrone/dev_ws/build/drone/build/lib/drone
+copying drone/__init__.py -> /home/moon/project/Pixhawkdrone/dev_ws/build/drone/build/lib/drone
+running install
+running install_lib
+creating /home/moon/project/Pixhawkdrone/dev_ws/install/drone/lib/python3.10/site-packages/drone
+copying /home/moon/project/Pixhawkdrone/dev_ws/build/drone/build/lib/drone/__init__.py -> /home/moon/project/Pixhawkdrone/dev_ws/install/drone/lib/python3.10/site-packages/drone
+byte-compiling /home/moon/project/Pixhawkdrone/dev_ws/install/drone/lib/python3.10/site-packages/drone/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/moon/project/Pixhawkdrone/dev_ws/install/drone/share/ament_index
+creating /home/moon/project/Pixhawkdrone/dev_ws/install/drone/share/ament_index/resource_index
+creating /home/moon/project/Pixhawkdrone/dev_ws/install/drone/share/ament_index/resource_index/packages
+copying resource/drone -> /home/moon/project/Pixhawkdrone/dev_ws/install/drone/share/ament_index/resource_index/packages
+copying package.xml -> /home/moon/project/Pixhawkdrone/dev_ws/install/drone/share/drone
+running install_egg_info
+Copying ../../build/drone/drone.egg-info to /home/moon/project/Pixhawkdrone/dev_ws/install/drone/lib/python3.10/site-packages/drone-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/moon/project/Pixhawkdrone/dev_ws/build/drone/install.log'

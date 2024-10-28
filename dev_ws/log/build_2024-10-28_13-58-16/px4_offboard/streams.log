@@ -1,0 +1,47 @@
+[0.403s] Invoking command in '/home/moon/project/Pixhawkdrone/dev_ws/src/px4-offboard': AMENT_PREFIX_PATH=/home/moon/project/Pixhawkdrone/dev_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/project/Pixhawkdrone/dev_ws/install/px4_msgs LD_LIBRARY_PATH=/home/moon/project/Pixhawkdrone/dev_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/lib/python3.10/site-packages:/home/moon/project/Pixhawkdrone/dev_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/build install --record /home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/install.log --single-version-externally-managed install_data
+[0.522s] running egg_info
+[0.522s] creating ../../build/px4_offboard/px4_offboard.egg-info
+[0.529s] writing ../../build/px4_offboard/px4_offboard.egg-info/PKG-INFO
+[0.529s] writing dependency_links to ../../build/px4_offboard/px4_offboard.egg-info/dependency_links.txt
+[0.529s] writing entry points to ../../build/px4_offboard/px4_offboard.egg-info/entry_points.txt
+[0.529s] writing requirements to ../../build/px4_offboard/px4_offboard.egg-info/requires.txt
+[0.529s] writing top-level names to ../../build/px4_offboard/px4_offboard.egg-info/top_level.txt
+[0.529s] writing manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[0.543s] reading manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[0.543s] adding license file 'LICENSE'
+[0.544s] writing manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[0.544s] running build
+[0.544s] running build_py
+[0.544s] creating /home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/build
+[0.544s] creating /home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/build/lib
+[0.544s] creating /home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/build/lib/px4_offboard
+[0.544s] copying px4_offboard/visualizer.py -> /home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/build/lib/px4_offboard
+[0.544s] copying px4_offboard/offboard_control.py -> /home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/build/lib/px4_offboard
+[0.544s] copying px4_offboard/__init__.py -> /home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/build/lib/px4_offboard
+[0.544s] running install
+[0.547s] running install_lib
+[0.554s] creating /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[0.554s] copying /home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/build/lib/px4_offboard/visualizer.py -> /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[0.554s] copying /home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/build/lib/px4_offboard/offboard_control.py -> /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[0.554s] copying /home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/build/lib/px4_offboard/__init__.py -> /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[0.554s] byte-compiling /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/visualizer.py to visualizer.cpython-310.pyc
+[0.555s] byte-compiling /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/offboard_control.py to offboard_control.cpython-310.pyc
+[0.555s] byte-compiling /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/__init__.py to __init__.cpython-310.pyc
+[0.555s] running install_data
+[0.555s] creating /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/share/ament_index
+[0.555s] creating /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/share/ament_index/resource_index
+[0.555s] creating /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/share/ament_index/resource_index/packages
+[0.556s] copying resource/px4_offboard -> /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/share/ament_index/resource_index/packages
+[0.556s] copying resource/visualize.rviz -> /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/share/ament_index/resource_index/packages
+[0.556s] copying package.xml -> /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/share/px4_offboard
+[0.556s] copying launch/visualize.launch.py -> /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/share/px4_offboard
+[0.556s] copying launch/offboard_position_control.launch.py -> /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/share/px4_offboard
+[0.556s] copying launch/offboard_hardware_position_control.launch.py -> /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/share/px4_offboard
+[0.556s] copying resource/visualize.rviz -> /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/share/px4_offboard
+[0.556s] running install_egg_info
+[0.564s] Copying ../../build/px4_offboard/px4_offboard.egg-info to /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.0-py3.10.egg-info
+[0.564s] running install_scripts
+[0.631s] Installing offboard_control script to /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/lib/px4_offboard
+[0.632s] Installing visualizer script to /home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/lib/px4_offboard
+[0.632s] writing list of installed files to '/home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/install.log'
+[0.648s] Invoked command in '/home/moon/project/Pixhawkdrone/dev_ws/src/px4-offboard' returned '0': AMENT_PREFIX_PATH=/home/moon/project/Pixhawkdrone/dev_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moon/project/Pixhawkdrone/dev_ws/install/px4_msgs LD_LIBRARY_PATH=/home/moon/project/Pixhawkdrone/dev_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moon/project/Pixhawkdrone/dev_ws/install/px4_offboard/lib/python3.10/site-packages:/home/moon/project/Pixhawkdrone/dev_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/build install --record /home/moon/project/Pixhawkdrone/dev_ws/build/px4_offboard/install.log --single-version-externally-managed install_data

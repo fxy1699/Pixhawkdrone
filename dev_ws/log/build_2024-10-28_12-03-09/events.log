@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (-) JobUnselected: {'identifier': 'drone'}
+[0.000235] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000276] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/moon/project/Pixhawkdrone/dev_ws/install/px4_msgs')])}
+[0.000308] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[0.005693] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 1}
+[0.016034] (-) EventReactorShutdown: {}
